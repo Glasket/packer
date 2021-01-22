@@ -1,0 +1,5 @@
+{
+    "includes": ["img", "ex.js", "ex.json"],
+    "excludes": ["img/dummyicon.png"],
+    "entryPoints": []
+}
