@@ -9,3 +9,7 @@ Python script built for basic packaging.
 - More minification (HTML, XML, CSS, etc.)
 - "EntryPoints" where you can specify a file to be read and, using special comments, indicate files that will have their contents injected
 - Compressing/archiving the final result
+
+## Dependencies
+- rjsmin: REQUIRED | This handles the JS minification
+- PyInstaller for building the binary version

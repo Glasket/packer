@@ -125,7 +125,10 @@ def main():
     args = parser.parse_args()
     g.logger = Logger(args.verbose)
     g.logger.debug(args)
-    args.func()
+    try:
+        args.func()
+    except AttributeError:
+        parser.print_help()
 
 
 if __name__ == "__main__":
